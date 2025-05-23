@@ -22,8 +22,8 @@ const App = () => {
       <EducationalInterface />
       <SchoolAuraBenefits />
       <BenefitsOfOnlineEducation />
-      <GallerySection />
       <EducationStats />
+      <GallerySection />
       <Parentreview />
       <Footer />
       <div className="fixed text-white w-fit flex items-center bottom-4 right-4 z-50">

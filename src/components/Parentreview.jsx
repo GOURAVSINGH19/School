@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { testimonials } from "../../utils/Cardsdata";
+
 const Parentreview = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
@@ -40,7 +41,7 @@ const Parentreview = () => {
   const handleMouseLeave = () => setIsAutoPlaying(true);
 
   return (
-    <div className="w-full h-full  py-16 px-4 md:px-8 mb-20">
+    <div className="w-full h-full py-16 px-4 md:px-8 mb-20">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold">
@@ -86,7 +87,7 @@ const Parentreview = () => {
             </button>
           </div>
 
-          <div className="flex flex-nowrap overflow-hidden  justify-center mt-8 space-x-2">
+          <div className="flex flex-nowrap overflow-hidden justify-center mt-8 space-x-2">
             {testimonials.map((_, index) => (
               <button
                 key={index}

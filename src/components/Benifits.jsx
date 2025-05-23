@@ -1,4 +1,5 @@
 import { benefits } from "../../utils/Cardsdata";
+
 const SchoolAuraBenefits = () => {
   return (
     <div className="w-full bg-white py-16 px-4 md:px-8">
@@ -132,12 +133,9 @@ const SchoolAuraBenefits = () => {
                 )}
               </div>
 
-              {/* Title */}
               <h3 className="text-xl font-semibold mb-3 text-gray-800">
                 {benefit.title}
               </h3>
-
-              {/* Description */}
               <p className="text-gray-600 text-sm">{benefit.description}</p>
             </div>
           ))}

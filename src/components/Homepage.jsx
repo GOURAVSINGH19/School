@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { cardData } from "../../utils/Cardsdata";
 import { Eye, EyeOff } from "lucide-react";
+
 const Homepage = () => {
   const [activeTab, setActiveTab] = useState("student");
   const [showPassword, setShowPassword] = useState(false);
@@ -18,9 +19,10 @@ const Homepage = () => {
     e.preventDefault();
     console.log("Login attempt with:", formData);
   };
+
   return (
     <div className="flex flex-col hero-banner">
-      <div className="flex-grow relative hero-container">
+      <div className="flex-grow relative hero-container fade-in">
         <div className="container mx-auto px-4 py-12 flex flex-col md:flex-row">
           <div className="md:w-[70%] mb-8 md:mb-0">
             <h1 className="text-5xl md:text-6xl font-bold mb-4">
@@ -31,7 +33,7 @@ const Homepage = () => {
               SchoolAura Is A Smart Education Platform
             </h2>
 
-            <div className=" w-full flex justify-between items-center gap-5  relative">
+            <div className="w-full flex justify-between items-center gap-5 relative">
               <div className="hero-services"></div>
               {cardData.map((item, index) => (
                 <div key={index} className="text-center hero-services-li">
@@ -73,11 +75,19 @@ const Homepage = () => {
             </div>
           </div>
 
-          <div className=" md:pl-8">
+          <div className="md:pl-8">
+            <div className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-white">Welcome to</span>
+              <br />
+              <span className="text-white">SchoolAura</span>
+            </div>
+            <div className="text-xl text-white mb-8">
+              Your complete education solution
+            </div>
             <div className="rounded-sm relative">
               <div className="relative max-w-md mx-auto">
                 <div className="flex h-20 justify-center -mt-16 mb-4">
-                  <div className="rounded-full  p-1 absolute z-10">
+                  <div className="rounded-full p-1 absolute z-10">
                     <img
                       src="./user-img.png"
                       alt="Student Avatar"

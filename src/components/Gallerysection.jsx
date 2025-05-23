@@ -47,7 +47,7 @@ const GallerySection = () => {
         )}
       </div>
 
-      <div className="content-section">
+      <div className="content-section fade-in">
         <h1 className="main-heading">
           VISIT OUR CAMPUS <br />
           WITH <span className="highlight">IMAGE GALLERY</span>

@@ -1,7 +1,7 @@
 const BenefitsOfOnlineEducation = () => {
   return (
     <div className="w-screen">
-      <div className="mobile-app-container">
+      <div className="mobile-app-container fade-in">
         <div className="mobile-app-image-container">
           <img
             src="./school_aura_app.jpg"
@@ -37,8 +37,8 @@ const BenefitsOfOnlineEducation = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <div className="flex flex-col md:flex-row items-start justify-between">
-          <div className="md:w-2/3 pr-0 md:pr-8">
+        <div className="flex flex-col md:flex-row items-start justify-between ">
+          <div className="md:w-2/3 pr-0 md:pr-8 fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-2">
               <span className="text-gray-900">Benefits of</span>
               <br />
@@ -97,7 +97,7 @@ const BenefitsOfOnlineEducation = () => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-900 text-white mt-[-10px] py-8 px-4 flex flex-wrap justify-between items-center z-[2] relative">
+        <div className="bg-gray-900 text-white mt-[-10px] py-8 px-4 flex flex-wrap justify-between items-center z-[2] relative fade-in">
           <div className="text-center w-full sm:w-1/2 md:w-1/4 mb-6 md:mb-0">
             <div className="text-4xl md:text-5xl font-bold">10000+</div>
             <div className="text-orange-500 text-xl">Total Exams</div>

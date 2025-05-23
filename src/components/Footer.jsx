@@ -161,7 +161,7 @@ export default function Footer() {
 
           <div>
             <h3 className="text-xl font-semibold mb-6 text-orange-500">
-              Follow Us
+              Contact Us
             </h3>
             <div className="flex space-x-2">
               <a

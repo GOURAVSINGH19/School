@@ -6,7 +6,7 @@ const EducationalInterface = () => {
   const categories = ["School", "Competitive", "Enterance", "Tutors"];
 
   return (
-    <div className="w-full py-16 px-4 bg-gray-50">
+    <div className="w-full py-16 px-4  mt-20">
       <div className="max-w-6xl mx-auto">
         <div className="mb-8">
           <h2 className="text-4xl md:text-5xl font-bold">
@@ -16,9 +16,9 @@ const EducationalInterface = () => {
           </h2>
         </div>
 
-        <div className="w-full bg-white rounded-md shadow-lg overflow-hidden">
+        <div className="w-full bg-white rounded-md shadow-lg overflow-hidden fade-in">
           <div className="flex flex-col md:flex-row">
-            <div className="w-full md:w-1/4 border-r border-gray-200">
+            <div className="w-full md:w-1/4 border-r border-gray-200 text-[1.5rem]">
               {categories.map((category) => (
                 <div
                   key={category}
