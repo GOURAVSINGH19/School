@@ -18,7 +18,6 @@ const EducationalInterface = () => {
 
         <div className="w-full bg-white rounded-md shadow-lg overflow-hidden">
           <div className="flex flex-col md:flex-row">
-            {/* Left sidebar with categories */}
             <div className="w-full md:w-1/4 border-r border-gray-200">
               {categories.map((category) => (
                 <div
@@ -49,7 +48,6 @@ const EducationalInterface = () => {
               ))}
             </div>
 
-            {/* Right content area with exam categories */}
             <div className="w-full md:w-3/4 p-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {categoryData[activeCategory].map((item, index) => (
@@ -71,14 +69,6 @@ const EducationalInterface = () => {
               </div>
             </div>
           </div>
-        </div>
-
-        <div className="mt-20 text-center">
-          <h2 className="text-4xl font-bold">
-            <span className="text-gray-900">BENEFITS OF SCHOOLAURA</span>
-            <br />
-            <span className="text-orange-500">FOR STUDENT</span>
-          </h2>
         </div>
       </div>
     </div>

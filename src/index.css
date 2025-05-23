@@ -342,3 +342,14 @@ body {
     font-size: 22px;
   }
 }
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.9s ease;
+  transform: translateZ(0) scale(1);
+  transition-property: opacity, transform;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}

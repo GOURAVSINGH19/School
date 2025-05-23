@@ -41,16 +41,16 @@ export default function EducationStats() {
                   <GraduationCap size={40} strokeWidth={1.5} />
                 </div>
                 <div>
-                  <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+                  <h3 className="fade-out text-3xl md:text-4xl font-bold text-gray-900">
                     108+
                   </h3>
-                  <p className="text-orange-500 text-lg font-medium">
+                  <p className="fade-out text-orange-500 text-lg font-medium">
                     Happy School
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              <div  className="flex items-start space-x-4 fade-in">
                 <div className="p-2 text-gray-800">
                   <User size={40} strokeWidth={1.5} />
                 </div>
